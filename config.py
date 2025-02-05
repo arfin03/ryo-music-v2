@@ -22,13 +22,13 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002059929123))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002095596112))
 
 # LOGGER_ID Id Also Use No Problem
-BOTADDLOGS = int(getenv("BOTADDLOGS", "-1002059929123"))
+BOTADDLOGS = int(getenv("BOTADDLOGS", "-1002095596112"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5147822244))
+OWNER_ID = int(getenv("OWNER_ID", 6995317382))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -38,20 +38,20 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Shadow-rot/anon",
+    "https://github.com/arfin03/ryo-music-v2",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/UNKNWON_NETWROK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CROWN_FED_V4")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/padukaanos")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gc_animecommunity")
 
-ANIMES = getenv("ANIMES", "https://t.me/shadwo_animes")
+ANIMES = getenv("ANIMES", "https://t.me/gc_animecommunity")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -86,21 +86,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/9l3vya.mp4"
+    "START_IMG_URL", "https://f.uguu.se/KJpKMnzR.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/xe7lt1.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/6ecedcea37c0e827ed809.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/yiskmp.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/zxpua2.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/zxpua2.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
 
 
 def time_to_seconds(time):
